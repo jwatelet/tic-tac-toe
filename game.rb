@@ -39,7 +39,7 @@ class Grid
 
   def to_s
     @grid.map { |line| line.join(' | ') }
-         .join("\n---+---+---\n")
+         .join("\n--+---+---\n")
   end
 
   def take_a_box(box_number, symbol)
