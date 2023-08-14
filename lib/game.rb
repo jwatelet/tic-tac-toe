@@ -34,11 +34,3 @@ class Game
     @player1.win? || @player2.win? || @player1.draw?
   end
 end
-
-
-
-game = Game.new
-game.start
-
-__END__
-
